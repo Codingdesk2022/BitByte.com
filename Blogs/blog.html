@@ -266,7 +266,7 @@ async function fetchBlogPosts() {
                 const postSnippet = document.createElement('p');
                 if (isValidUrl(content)) {
                     fetchContentFromUrl(content).then(fetchedContent => {
-                        postSnippet.innerText = getPlainText(fetchedContent).substring(0, 200) + '...';
+                        postSnippet.innerText = getPlainText(fetchedContent).substring(0, 100) + '...';
                     }).catch(error => {
                         console.error('Error fetching content from URL: ', error);
                         postSnippet.innerText = 'Failed to load content.';
