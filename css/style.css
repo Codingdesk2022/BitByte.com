@@ -129,7 +129,8 @@ body {
     position: relative;
     bottom: 9px;
     /* background: rgb(46, 160, 149); */
-    background: rgba(0, 0, 0, 0.712);
+    /*background: rgba(0, 0, 0, 0.712);*/
+    background: #116dff;
     border-radius: 5px;
     color: white;
 }
